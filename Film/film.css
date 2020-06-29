@@ -1,0 +1,63 @@
+
+
+@media (min-width:768px){
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .gallery{
+        margin: 20px 20px;
+       padding: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       
+       justify-content: space-between;
+       width: 100%;
+       background-color: rgb(255, 255, 255);
+       align-items: flex-end;
+       text-align: center;
+       margin: 0em;
+           
+      }
+    
+      .gallery img:hover{
+        filter: grayscale(60%);
+        transform: scale(1.1); 
+        width: 100%;
+        
+        }
+    .sliding-background{
+        height: 300px;
+        background-image: url(./Film-slide.JPG)
+        ;
+        background-repeat: repeat-x;
+        background-size: contain;
+        width: 5000px;
+        animation: slide 60s linear infinite;
+        margin: 0;
+        padding: 0em;
+        margin-top: 30px;
+        
+    }
+    .wrapper{
+        overflow-x: hidden;
+        text-align: center;
+    }
+    @keyframes slide{
+        0%{
+            transform:translate3d(0,0,0);
+        }
+        100%{
+            transform:translate3d(-1692px,0,0);
+        }
+    }
+
+   
+  
+}
+
