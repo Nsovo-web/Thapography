@@ -1,0 +1,227 @@
+
+@media (min-width:360px){
+
+}
+
+@media  (min-width:768px){
+    header nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        
+        flex-wrap: nowrap;
+        width: 100%;
+    
+    }
+    
+    header nav ul li{
+        margin:0;
+        margin-left: 0;
+        font-weight: bold;
+        white-space: nowrap;
+        size: 40px;
+        
+        
+    }
+
+    header nav ul li a{
+    
+        font-size: 120px;
+        text-decoration: none !important;
+       
+        text-decoration-color: none !important;
+        background-color: transparent !important;
+        color: black;
+    }
+ .gallery{
+    margin: 20px 20px;
+   padding: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: space-between;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   align-items: flex-end;
+   text-align: center;
+   margin-bottom: 0em;
+       
+  }
+
+  .gallery img:hover{
+    filter: grayscale(60%);
+    transform: scale(1.1); 
+    width: 100%;
+    
+    }
+    .pic-2{
+        visibility: visible;
+        background: fixed;
+        background-image: url(./fixed-image.PNG);
+       height: 700px;
+        width: 100%;
+        margin-top: 0em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: cursive;
+        font-weight: bolder;
+        text-align: center;
+        vertical-align: center;
+        
+        padding-top: 150px;
+        width: 100%;
+        position: center;
+        overflow-x: hidden;
+        bottom: 0px;
+        
+      
+
+    }
+
+    .pic2-text{
+        color: burlywood;
+        text-decoration: double;
+        scale: 4;
+
+    }
+    .body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .pic-2:hover{
+
+        transform: rotateX(10);
+        scroll-behavior: smooth;
+    }
+
+    header nav ul li a{
+    
+        font-size: 110% !important;
+        text-decoration: none !important;
+       
+        text-decoration-color: none !important;
+        background-color: transparent !important;
+        color: black;
+    }
+
+}
+.pic2-text{
+   visibility: hidden;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 4px;
+    margin-right: 2px;
+
+}
+footer{
+    display: flex;
+    margin: 10px;
+}
+
+header nav ul li{
+    margin-right: 4%;
+    margin-left: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+    
+    
+    
+}
+header nav ul li a{
+    
+    font-size: 57%;
+    text-decoration: none !important;
+   
+    text-decoration-color: none !important;
+    background-color: transparent !important;
+    color: black;
+}
+
+header nav ul li a:hover{
+    text-decoration: none !important;
+    text-decoration-color: none !important;
+    background-color: transparent;
+    color:  rgb(141, 141, 141);;
+}
+
+header nav ul li:hover{
+    
+    transform: scale(1.08);
+    cursor: pointer;
+    color: rgb(141, 141, 141);
+}
+
+header{
+    position: relative;
+}
+
+header nav{
+    margin: 10px 10px 0px 0px;
+    
+    
+}
+
+.body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.sliding-background{
+    height: 300px;
+    background-image: url(./slide-image.PNG)
+    ;
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 5000px;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0em;
+    
+}
+.wrapper{
+    overflow-x: hidden;
+    text-align: center;
+}
+@keyframes slide{
+    0%{
+        transform:translate3d(0,0,0);
+    }
+    100%{
+        transform:translate3d(-1692px,0,0);
+    }
+}
+.gallery{
+    width: 100%;
+    
+    text-align: center;
+
+}
+
+hr{
+   font-weight: bold;
+   font-size: 5px;
+   
+}
+.logo{
+    text-align: center;
+    justify-self:center;
+}
+
+.gallery img:hover{
+    filter: grayscale(60%);
+    transform: scale(1.1); 
+    width: 100%;
+    
+}
